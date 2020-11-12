@@ -10,6 +10,7 @@ header {
   background-color: whitesmoke;
 }
 header a {
+  text-decoration: none;
   margin: 1rem;
 }
 /* ---- Section 2: Hero's Greeting ---- */
