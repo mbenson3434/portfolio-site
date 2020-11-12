@@ -1,0 +1,101 @@
+/* .App {
+  text-align: center;
+} */
+/* ---- Section 1: Header ---- */
+header {
+  color: #FB3640;
+  display: flex;
+  justify-content: flex-end;
+  padding: 2rem;
+  background-color: whitesmoke;
+}
+header a {
+  margin: 1rem;
+}
+/* ---- Section 2: Hero's Greeting ---- */
+.whole-section2 {
+  background-color: whitesmoke;
+}
+.hero-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 75vh;
+  width: 50%;
+  background-color: whitesmoke;
+}
+
+h1 {
+  font-size: 7rem;
+  padding: 0;
+  margin: 0;
+}
+
+.hello-div {
+  margin-left: 6rem;
+}
+
+.hello-div p, h2 {
+  padding: 0;
+  margin: 0;
+}
+
+.hello-div h2 {
+  font-size: 2rem;
+  color: #2FE6DE; 
+}
+.hello-div p {
+  margin-top: .5rem;
+  font-size: 1rem;
+}
+
+/* ---- Section 3: Projects ---- */
+.projects {
+  display: flex;
+  justify-content: space-around;
+  padding: 3rem;
+  background-color: #5BECE4;
+}
+.img-div {
+  margin-top: 3rem;
+  width: 45%;
+  background-color: #F05365;
+  border-radius: 10px;
+}
+
+.kid-bank-logo {
+  margin-top: .5rem;
+  width: 100%;
+}
+.caption {
+  padding: .75rem;
+  border-radius: 10px;
+  background-color: #F05365;
+}
+
+.caption a {
+  text-decoration: none;
+  margin-left: 2rem;
+  font-size: larger;
+  font-weight: 600;
+}
+
+/* ---- Media ---- */
+@media (max-width: 700px) {
+
+  .projects {
+    flex-direction: column;
+    align-items: center;
+    margin: 3rem;
+  }
+
+  .img-div {
+    width: 80%;
+    margin: 3rem;
+  }
+
+  header {
+    justify-content: center;
+  }
+  
+}
