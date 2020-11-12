@@ -12,6 +12,8 @@ header {
 header a {
   text-decoration: none;
   margin: 1rem;
+  color: #FB3640;
+  font-weight: 600;
 }
 /* ---- Section 2: Hero's Greeting ---- */
 .whole-section2 {
