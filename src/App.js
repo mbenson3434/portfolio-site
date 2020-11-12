@@ -6,7 +6,7 @@ function App() {
     <div className="App">
 
       <header className="header">
-        <a>Projects</a>
+        <a href="#projects">Projects</a>
         <a>Resume</a>
       </header>
 
@@ -20,7 +20,7 @@ function App() {
         </section>
       </section>
 
-      <section className="projects">
+      <section id="projects" className="projects">
 
         <div className="img-div">
         <a  href="https://kid-bank-mvd23cnt3.vercel.app/">
