@@ -18,7 +18,7 @@ function App() {
         </a>
         <div className="caption">
         <p>
-          <a href="https://kid-bank-a931axrip.vercel.app/">Try Kid Bank</a>
+          <a href="https://kid-bank.vercel.app/">Try Kid Bank</a>
         </p>
         <p>
           <a href="https://github.com/mbenson3434/kid-bank">gitHub</a>
