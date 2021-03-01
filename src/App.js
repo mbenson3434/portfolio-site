@@ -1,23 +1,19 @@
-
 import './App.css';
+
 
 function App() {
   return (
     <div className="App">
 
-      <header className="header">
+      {/* <header className="header">
         <a href="#projects">Projects</a>
-      </header>
+      </header> */}
 
-      <section className="whole-section2">
-        <section className="hero-section">
-          <div className="hello-div">
-            <h1>Meg Benson</h1>
-            <p>A full stack web design student at Lambda school.</p>
-          </div>
-        </section>
+      <section className="hero-section">
+        <h1>Meg Benson</h1>
+        <a href='#projects' className='hero-links'>Projects</a>
       </section>
-
+      <section className='filler-section'></section>
       <section id="projects" className="projects">
 
         <div className="img-div">

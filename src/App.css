@@ -1,89 +1,82 @@
-/* .App {
-  text-align: center;
-} */
-/* ---- Section 1: Header ---- */
-header {
-  color: #FB3640;
-  display: flex;
-  justify-content: flex-end;
-  padding: 2rem;
-  background-color: whitesmoke;
-}
-header a {
-  text-decoration: none;
-  margin: 1rem;
-  color: #FB3640;
-  font-weight: 600;
-}
-/* ---- Section 2: Hero's Greeting ---- */
-.whole-section2 {
-  background-color: whitesmoke;
-}
+
+/* ---- Section 1: Hero ---- */
 .hero-section {
+  background-image: url('pawel-czerwinski-OG44d93iNJk-unsplash.jpg');
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
   display: flex;
+  flex-direction: column;
+  align-items: flex-end;
   justify-content: center;
-  align-items: center;
-  height: 75vh;
-  width: 50%;
-  background-color: whitesmoke;
 }
 
 h1 {
   font-size: 7rem;
   padding: 0;
-  margin: 0;
+  margin: 0 4rem 2rem 0;
+  opacity: .85;
 }
-
-.hello-div {
-  margin-left: 6rem;
-}
-
-.hello-div p, h2 {
-  padding: 0;
-  margin: 0;
-}
-
-.hello-div h2 {
+.hero-links {
+  margin: 0 4rem 8rem 0;
+  text-decoration: none;
+  color: black;
   font-size: 2rem;
-  color: #2FE6DE; 
-}
-.hello-div p {
-  margin-top: .5rem;
-  font-size: 1rem;
+  font-weight: bold;
+  opacity: .85;
 }
 
-/* ---- Section 3: Projects ---- */
+.hero-links:hover {
+  color:#F735B9
+}
+
+.filler-section {
+  height: 5vh;
+  background-color: #F735B9;
+  opacity: .2;
+}
+
+/* ---- Section 2: Projects ---- */
 .projects {
   display: flex;
   justify-content: space-around;
   padding: 3rem;
-  background-color: #5BECE4;
+  background-color: whitesmoke;
 }
 .img-div {
+  opacity: .85;
   margin-top: 3rem;
   width: 45%;
-  background-color: #F05365;
+  border: 10px solid black;
+  background-color: whitesmoke;
   border-radius: 10px;
-}
-
-.kid-bank-logo {
-  margin-top: .5rem;
-  width: 100%;
 }
 .caption {
   padding: .75rem;
   border-radius: 10px;
-  background-color: #F05365;
+  background-color: whitesmoke;
 }
+.kid-bank-logo {
+  margin-top: .5rem;
+  width: 100%;
+}
+
 
 .caption a {
   text-decoration: none;
   margin-left: 2rem;
   font-size: larger;
   font-weight: 600;
+  color: black;
 }
 
-/* ---- Media ---- */
+.caption a:hover {
+  color: #F735B9;
+}
+
+/* ---- Media Break Points ---- */
 @media (max-width: 700px) {
 
   .projects {
@@ -97,8 +90,8 @@ h1 {
     margin: 3rem;
   }
 
-  header {
+  /* header {
     justify-content: center;
-  }
+  } */
   
 }
