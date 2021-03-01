@@ -5,10 +5,6 @@ function App() {
   return (
     <div className="App">
 
-      {/* <header className="header">
-        <a href="#projects">Projects</a>
-      </header> */}
-
       <section className="hero-section">
         <h1>Meg Benson</h1>
         <a href='#projects' className='hero-links'>Projects</a>
