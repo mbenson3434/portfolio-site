@@ -1,5 +1,8 @@
 
 /* ---- Section 1: Hero ---- */
+* {
+  font-family: 'Source Code Pro', monospace;
+}
 .hero-section {
   background-image: url('pawel-czerwinski-OG44d93iNJk-unsplash.jpg');
   height: 100vh;
@@ -14,22 +17,35 @@
 }
 
 h1 {
-  font-size: 7rem;
+  font-size: 6rem;
+  padding: 0;
+  margin: 0 4rem 0rem 0;
+  opacity: .85;
+}
+
+h4 {
+  font-size: 2rem;
   padding: 0;
   margin: 0 4rem 2rem 0;
   opacity: .85;
 }
+
+.span-links {
+  margin-right: 4rem;
+}
+
 .hero-links {
-  margin: 0 4rem 8rem 0;
+  margin-bottom: 8rem;
+  padding-left: 1rem;
   text-decoration: none;
   color: black;
-  font-size: 2rem;
+  font-size: 1rem;
   font-weight: bold;
   opacity: .85;
 }
 
 .hero-links:hover {
-  color:#F735B9
+  color:#F735B9;
 }
 
 .filler-section {
@@ -45,55 +61,76 @@ h1 {
   padding: 3rem;
   background-color: whitesmoke;
 }
+
 .img-div {
   opacity: .85;
   margin-top: 3rem;
-  width: 45%;
-  border: 10px solid black;
+  width: 30%;
   background-color: whitesmoke;
-  border-radius: 10px;
+  text-align: center;
 }
+
 .caption {
-  padding: .75rem;
-  border-radius: 10px;
+  padding: 0;
   background-color: whitesmoke;
 }
-.kid-bank-logo {
+
+.images {
   margin-top: .5rem;
   width: 100%;
 }
 
+.logo-container {
+  height: 70%;
+  margin-bottom: 0;
+}
 
 .caption a {
   text-decoration: none;
-  margin-left: 2rem;
-  font-size: larger;
-  font-weight: 600;
+  font-size: 1rem;
   color: black;
+  font-weight: bold;
 }
 
 .caption a:hover {
   color: #F735B9;
+  /* transform: scale(3); */
 }
 
 /* ---- Media Break Points ---- */
-@media (max-width: 400px) {
+@media (min-width: 375px) {
+  .hero-section {
+    text-align: center;
+    align-items: center;
+  }
+
   h1 {
-    font-size: 5rem;
-    margin-left: 2rem;
+    font-size: 3rem;
+    margin: 0 0 3rem 0;
+    padding: 0;
+  }
+  h4 {
+    font-size: 1.5rem;
+    margin: 0;
+    padding: 0;
+  }
+  .span-links {
+    margin: 0;
   }
   .hero-links {
-    margin-right: 4rem;
+    margin: 0;
+    padding: 0;
   }
   .projects {
     flex-direction: column;
     align-items: center;
-    margin: 3rem;
   }
 
   .img-div {
     width: 80%;
-    margin: 3rem;
+  }
+  .img2 {
+    margin-bottom: 3rem;
   }
   .caption a {
     font-size: small;
