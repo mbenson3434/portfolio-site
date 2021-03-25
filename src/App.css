@@ -98,7 +98,13 @@ h4 {
 }
 
 /* ---- Media Break Points ---- */
-@media (max-width: 500px) {
+@media (max-width: 920px) {
+  h1 {
+    font-size: 4rem;
+  }
+}
+
+@media (max-width: 700px) {
   .hero-section {
     text-align: center;
     align-items: center;
