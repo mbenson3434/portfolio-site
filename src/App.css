@@ -31,7 +31,7 @@ h4 {
 }
 
 .span-links {
-  margin-right: 4rem;
+  margin-right: 4.2rem;
 }
 
 .hero-links {
@@ -98,7 +98,7 @@ h4 {
 }
 
 /* ---- Media Break Points ---- */
-@media (max-width: 375px) {
+@media (max-width: 400px) {
   .hero-section {
     text-align: center;
     align-items: center;
@@ -133,8 +133,8 @@ h4 {
     margin-bottom: 3rem;
   }
   .caption a {
-    font-size: small;
-    margin-left: 1rem;
+    font-size: 1.5rem;
+    font-weight: bold;
   }
   .projects {
     padding: 0;
