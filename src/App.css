@@ -65,7 +65,7 @@ h4 {
 .img-div {
   opacity: .85;
   margin-top: 3rem;
-  width: 30%;
+  width: 25%;
   background-color: whitesmoke;
   text-align: center;
 }
@@ -134,9 +134,9 @@ h4 {
   }
 
   .img-div {
-    width: 80%;
+    width: 60%;
   }
-  .img2 {
+  .img3 {
     margin-bottom: 3rem;
   }
   .caption a {

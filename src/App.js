@@ -52,6 +52,21 @@ function App() {
           </div>
         </div>
 
+        {/* Talk to Frankie */}
+        <div className="img-div img3">
+          <div className="logo-container">
+            <img className="images" src="/smallLogoTTF.png" alt="" />
+          </div>
+          <div className="caption">
+            <p>
+              <a target="_blank" href="https://www.talktofrankie.com/">talktofrankie.com</a>
+            </p>
+            <p>
+              <a target="_blank" href="https://github.com/mbenson3434/talk-to-frankie">gitHub</a>
+            </p>
+          </div>
+        </div>
+
       </section>
     </div>
   );
